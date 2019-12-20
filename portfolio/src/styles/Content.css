@@ -1,0 +1,36 @@
+.left {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.right {
+    width: 50%;
+    display: inline-block;
+    background-color: red;
+}
+
+#about {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    padding: 20px 0 0 0;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 270px;
+    margin: 0 0 20px 0;
+}
+
+#info {
+    font-size: 25px;
+}
+
+.icon {
+    margin: 0 5px 0 5px;
+}
+
+.icons {
+    margin-bottom: 40px;
+}
