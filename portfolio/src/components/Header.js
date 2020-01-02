@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import '../styles/Header.css';
+import '../styles/Header.scss';
 
 function Header() {
   const [offset, setOffset] = useState(0);
