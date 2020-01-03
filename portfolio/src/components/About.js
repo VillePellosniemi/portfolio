@@ -6,9 +6,9 @@ import { SocialIcon } from 'react-social-icons';
 class About extends React.Component {
   render() {
     return (
-      <div>
+      <div id="about-test">
         <div className="left">
-          <h1 id="about">ABOUT ME</h1>
+          <h1 className="about">ABOUT ME</h1>
           <img className="img-circle" src={Image} alt="test" />
           <div className="icons">
             <SocialIcon className="icon" url="https://github.com/VillePellosniemi/" target="_blank"/>

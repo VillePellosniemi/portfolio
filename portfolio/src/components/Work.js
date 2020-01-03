@@ -2,18 +2,21 @@ import React from 'react';
 import '../styles/Work.scss';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Ruokalista from '../images/ruokalista.jpg';
 
 class Work extends React.Component {
   render() {
     return (
         <div id="work">
           <div className="lefty">
-            <h1>hello</h1>
+            <h1 className="about">SKILLS & WORK</h1>
           </div>
           <div className="righty">
-            <Carousel id="carousel" autoPlay>
+            <Carousel id="carousel"
+                      showThumbs={false}
+            >
               <div>
-                <img src="http://wallpaperstock.net/autumn-sunset_wallpapers_25281_1280x720.jpg" alt="test"/>
+                <img src={Ruokalista} alt="test"/>
               </div>
               <div>
                 <img src="https://wallpaperaccess.com/full/1078291.jpg" alt="test"/>
