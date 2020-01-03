@@ -1,4 +1,15 @@
+.righty {
+  width: 50%;
+  display: inline-block;
+  background-color: blue;
+}
 
+.lefty {
+  width: 50%;
+  float: left;
+  display: inline-block;
+  background-color: red;
+}
 
 .test {
     margin-bottom: 0;
@@ -9,6 +20,5 @@
 }
 
 .carousel {
-    width: 50%;
-    height: 400px;
+  width: 98% !important;
 }
