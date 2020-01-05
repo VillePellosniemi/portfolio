@@ -1,16 +1,24 @@
 import React from 'react';
 import '../styles/Work.scss';
-import ImageGridList from './ImageGrid';
 
 class Work extends React.Component {
   render() {
     return (
         <div id="work">
-          <div className="lefty">
-            <h1 id="skills">SKILLS & WORK</h1>
-          </div>
-          <div className="righty">
-            <ImageGridList/>
+          <h1 id="skills">SKILLS & WORK</h1>
+          <div className="images">
+            <div className="box">
+              <p className="test">yo</p>
+            </div>
+            <div className="box">
+              <p className="test">yo</p>
+            </div>
+            <div className="box">
+              <p className="test">yo</p>
+            </div>
+            <div className="box">
+              <p className="test">yo</p>
+            </div>
           </div>
         </div>
     );
