@@ -2,21 +2,25 @@
   width: 48%;
   display: inline-block;
   padding: 20px 0 20px 10px;
-  margin: 20px;
 }
 
 .lefty {
-  width: 45%;
-  float: left;
+  width: 100%;
   display: inline-block;
 }
 
+#skills {
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  padding: 20px 0 0 0;
+}
+
 .test {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #work {
-    background-color: #EDEDEF;
+  background-color: #EDEDEF;
 }
 
 .carousel {
