@@ -1,17 +1,28 @@
-.lefty {
-  width: 100%;
-  display: inline-block;
-}
-
 #skills {
   font-family: 'Lato', sans-serif;
   font-size: 40px;
   padding: 40px 0 20px 0;
 }
 
+#list {
+  list-style: none;
+  padding-left: 80px;
+  margin: 0;
+}
+
+.list-item {
+  display: block;
+  padding-bottom: 3px;
+}
+
+.ikoni {
+  width: 80px;
+}
 
 #work {
   background-color: #EDEDEF;
+  overflow:auto;
+  padding-bottom: 40px;
 }
 
 .container {
@@ -29,40 +40,21 @@
   filter: grayscale(100%);
 }
 
-.middl {
-  position: relative;
-  float: left;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .left2 {
-  width: 45%;
-  display: inline-block;
+  width: 20%;
   float: left;
-  text-align: center;
 }
 
-#skills-text {
-  padding: 0 0 0 70px;
-  font-size: 25px;
-  margin-top: 40px;
+.middle2 {
+  width: 36%;
+  float: left;
+  background-color: #EDEDEF;
+  margin: 30px 0 30px 0;
 }
 
-.images {
-  width: 45%;
-  margin-right: 10px;
-  padding-bottom: 30px;
-  display: inline-block;
-}
-
-div#b {
-  display: none;
-}
-
-div#a:hover div#b {
-  display: block;
+.right2 {
+  width: 33%;
+  float: left;
 }
 
 
