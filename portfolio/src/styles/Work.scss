@@ -4,21 +4,6 @@
   padding: 40px 0 20px 0;
 }
 
-#list {
-  list-style: none;
-  padding-left: 80px;
-  margin: 0;
-}
-
-.list-item {
-  display: block;
-  padding-bottom: 3px;
-}
-
-.ikoni {
-  width: 80px;
-}
-
 #work {
   background-color: #EDEDEF;
   overflow:auto;
@@ -26,7 +11,7 @@
 }
 
 .container {
-  width: 31.8%;
+  width: 25%;
   display: inline-block;
   height: 49%;
   border-radius: 7px;
@@ -40,21 +25,55 @@
   filter: grayscale(100%);
 }
 
-.left2 {
-  width: 20%;
-  float: left;
+.image-text {
+  margin: 10px 0 30px 0;
 }
 
-.middle2 {
-  width: 36%;
-  float: left;
-  background-color: #EDEDEF;
-  margin: 30px 0 30px 0;
+.someskills {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.left2 {
+  width: 50%;
+  display: inline-block;
+  margin: 0;
 }
 
 .right2 {
-  width: 33%;
-  float: left;
+  width: 50%;
+  display: inline-block;
+  float: right;
+}
+
+.image-grid {
+  padding: 0 50px 0 0;
+}
+
+.text-grid {
+  padding: 0 20px 0 100px;
+}
+
+
+
+
+.clicker {
+  width:100px;
+  height:100px;
+  background-color:blue;
+  outline:none;
+  cursor:pointer;
+}
+
+.hiddendiv{
+  display:none;
+  height:200px;
+  background-color:green;
+}
+
+.clicker:focus + .hiddendiv{
+  display:block;
 }
 
 

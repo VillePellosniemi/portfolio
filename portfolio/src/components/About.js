@@ -6,6 +6,7 @@ import {SocialIcon} from 'react-social-icons';
 
 class About extends React.Component {
 
+  // noinspection JSAnnotator
   props: Props;
 
   componentDidMount = () => {

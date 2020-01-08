@@ -8,3 +8,18 @@ html, body {
   margin:0;
   padding:0;
 }
+
+#list {
+  list-style: none;
+  padding: 0 60px 20px 0;
+  margin: 0;
+}
+
+.list-item {
+  display: inline;
+  padding-bottom: 3px;
+}
+
+.ikoni {
+  width: 80px;
+}
