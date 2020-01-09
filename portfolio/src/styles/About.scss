@@ -1,55 +1,55 @@
 .left {
-    width: 45%;
-    display: inline-block;
-    float: left;
-    text-align: center;
+  width: 45%;
+  display: inline-block;
+  float: left;
+  text-align: center;
 }
 
 .right {
-    width: 55%;
-    display: inline-block;
+  width: 55%;
+  display: inline-block;
 }
 
 .about {
-    font-family: 'Lato', sans-serif;
-    font-size: 40px;
-    padding: 20px 0 0 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  padding: 10px 0 0 0;
+  margin: 20px;
 }
 
 #aboutme {
-    padding: 60px 50px 0 50px;
-    font-size: 25px;
+  padding: 40px 50px 0 50px;
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
 }
 
 #about-test {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .img-circle {
-    border-radius: 50%;
-    width: 280px;
-    margin: 0 0 20px 0;
+  border-radius: 50%;
+  width: 280px;
+  margin: 0 0 20px 0;
 }
 
 #info {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .icon {
-    margin: 0 5px 0 5px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+  margin: 0 5px 0 5px;
 }
 
 .icons {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .middle {
-    border-left: 6px solid black;
-    height: 425px;
-    position: absolute;
-    left: 45%;
-    margin-top: 50px;
-    border-radius: 20px;
+  border-left: 6px solid black;
+  height: 425px;
+  position: absolute;
+  left: 45%;
+  margin-top: 50px;
+  border-radius: 20px;
 }

@@ -3,6 +3,7 @@ import './App.scss';
 import Header from './components/Header';
 import About from './components/About';
 import Work from './components/Work';
+import Contact from './components/Contact';
 
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
           <Header/>
           <About/>
           <Work/>
+          <Contact/>
         </div>
     );
   }

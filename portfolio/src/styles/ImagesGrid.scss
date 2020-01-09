@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
+
 .image-text {
   margin: 10px 0 30px 0;
 }
@@ -50,6 +52,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
 }
 
 .overlay {
@@ -61,21 +64,33 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+  transition: .8s ease;
   border-radius: 7px;
   z-index: 3;
+  background-color: white;
 }
 
 .container:hover .overlay {
-  opacity: 0.9;
+  opacity: 1;
 }
 
+
 .github-icon {
-  width: 35px !important;
-  height: 35px !important;
-  padding: 2px;
-  margin: 0;
-  color: yellow;
+  width: 30% !important;
+  height: 30% !important;
+  margin-left: 10px;
+  color: black;
+}
+
+.play-icon {
+  width: 35% !important;
+  height: 35% !important;
+  margin-bottom: -5px;
+  color: black;
+}
+
+#skills-text {
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
 }
 
