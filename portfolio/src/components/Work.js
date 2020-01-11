@@ -1,36 +1,44 @@
 import React from 'react';
 import '../styles/Work.scss';
-import sr from './scrollReveal';
 import Icons from './Icons';
 import ImagesGrid from './ImagesGrid';
+import PropTypes from 'prop-types';
+
+// Translation Higher Order Component
+import {
+  setTranslations,
+  setDefaultLanguage,
+  setLanguageCookie,
+  translate,
+} from 'react-switch-lang';
+import en from '../json/en';
+import th from '../json/th';
+
+// Do this two lines only when setting up the application
+setTranslations({en, th});
+setDefaultLanguage('en');
+
+// If you want to remember selected language
+setLanguageCookie();
 
 class Work extends React.Component {
 
-  // noinspection JSAnnotator
-  props: Props;
-
-  componentDidMount = () => {
-    const config = {
-      origin: 'bottom',
-      duration: 1200,
-      delay: 300,
-      distance: '500px',
-      scale: 1,
-      easing: 'ease',
-    };
-
-    sr.reveal(this.refs.box3, config);
-  };
-
   render() {
+
+    const {t} = this.props;
+
     return (
         <div id="work">
-          <h1 id="skills">SKILLS & WORK</h1>
-          <Icons/>
+          <h1 id="skills">{t('work.title')}</h1>
+          <Icons />
           <ImagesGrid/>
         </div>
     );
   }
 }
 
-export default Work;
+Work.propTypes = {
+  t: PropTypes.func.isRequired,
+};
+
+export default translate(Work);

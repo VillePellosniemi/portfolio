@@ -3,6 +3,24 @@ import '../styles/About.scss';
 import Image from '../images/profile.png';
 import sr from './scrollReveal';
 import {SocialIcon} from 'react-social-icons';
+import PropTypes from 'prop-types';
+
+// Translation Higher Order Component
+import {
+  setTranslations,
+  setDefaultLanguage,
+  setLanguageCookie,
+  translate,
+} from 'react-switch-lang';
+import en from '../json/en';
+import th from '../json/th';
+
+// Do this two lines only when setting up the application
+setTranslations({en, th});
+setDefaultLanguage('en');
+
+// If you want to remember selected language
+setLanguageCookie();
 
 class About extends React.Component {
 
@@ -33,10 +51,13 @@ class About extends React.Component {
   };
 
   render() {
+
+    const {t} = this.props;
+
     return (
         <div id="about-test">
           <div className="left" ref="box1">
-            <h1 className="about">ABOUT ME</h1>
+            <h1 className="about">{t('about.title')}</h1>
             <img className="img-circle" src={Image} alt="test"/>
             <div className="icons">
               <SocialIcon className="icon"
@@ -51,22 +72,15 @@ class About extends React.Component {
           </div>
           <div className="middle"/>
           <div className="right" ref="box2">
-            <p id="aboutme">Contrary to popular belief, Lorem Ipsum is not
-              simply random text. It has roots in a piece of classical Latin
-              literature from 45 BC,<br/><br/>making it over 2000 years old. Richard
-              McClintock, a Latin professor at Hampden-Sydney College in
-              Virginia, looked up one of the more obscure Latin words,
-              consectetur, from a Lorem Ipsum passage, and going through the
-              cites of the word in classical literature, discovered the
-              undoubtable source.<br/><br/>Lorem Ipsum comes from sections 1.10.32 and
-              1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good
-              and Evil) by Cicero, written in 45 BC. This book is a treatise on
-              the theory of ethics, very popular during the Renaissance. The
-              first line of Lorem Ipsum,</p>
+            <p id="aboutme">{t('about.text')}</p>
           </div>
         </div>
     );
   }
 }
 
-export default About;
+About.propTypes = {
+  t: PropTypes.func.isRequired,
+};
+
+export default translate(About);

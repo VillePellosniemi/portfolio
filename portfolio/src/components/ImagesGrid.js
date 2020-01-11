@@ -7,28 +7,68 @@ import Code from '../images/code.png';
 import '../styles/ImagesGrid.scss';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled';
+import sr from './scrollReveal';
+import PropTypes from 'prop-types';
+
+// Translation Higher Order Component
+import {
+  setTranslations,
+  setDefaultLanguage,
+  setLanguageCookie,
+  translate,
+} from 'react-switch-lang';
+import en from '../json/en';
+import th from '../json/th';
+
+// Do this two lines only when setting up the application
+setTranslations({en, th});
+setDefaultLanguage('en');
+
+// If you want to remember selected language
+setLanguageCookie();
 
 class ImagesGrid extends React.Component {
 
+  // noinspection JSAnnotator
+  props: Props;
+
+  componentDidMount = () => {
+    const config3 = {
+      origin: 'left',
+      duration: 1200,
+      delay: 300,
+      distance: '500px',
+      scale: 1,
+      easing: 'ease',
+    };
+
+    const config4 = {
+      origin: 'right',
+      duration: 1200,
+      delay: 300,
+      distance: '500px',
+      scale: 1,
+      easing: 'ease',
+    };
+
+    sr.reveal(this.refs.box3, config3);
+    sr.reveal(this.refs.box4, config4);
+  };
+
   render() {
+
+    const {t} = this.props;
+
     return (
         <div className="image-text">
 
-          <div className="left2">
+          <div className="left2" ref="box3">
             <div className="text-grid">
-              <p id="skills-text">Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s,<br/><br/>when an unknown
-                printer took a galley of type and scrambled it to make a type
-                specimen book. It has survived not only five centuries, but also
-                the leap into electronic typesetting, remaining essentially
-                unchanged.<br/><br/>It was popularised in the 1960s with the release of
-                Letraset sheets containing Lorem Ipsum passages, and more
-                recently</p>
+              <p id="skills-text">{t('work.text')}</p>
             </div>
           </div>
 
-          <div className="right2">
+          <div className="right2" ref="box4">
             <div className="image-grid">
 
               <div className="container">
@@ -133,4 +173,8 @@ class ImagesGrid extends React.Component {
   }
 }
 
-export default ImagesGrid;
+ImagesGrid.propTypes = {
+  t: PropTypes.func.isRequired,
+};
+
+export default translate(ImagesGrid);

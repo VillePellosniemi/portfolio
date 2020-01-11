@@ -1,7 +1,12 @@
 import React from 'react';
 import '../styles/Contact.scss';
+import {setLanguage} from 'react-switch-lang';
 
 class Contact extends React.Component {
+
+  handleSetLanguage = (key) => () => {
+    setLanguage(key);
+  };
 
   render() {
     return (
@@ -15,7 +20,13 @@ class Contact extends React.Component {
             <p>Copyright 2020 - Ville Pellosniemi</p>
             <p>All rights reserved. Made with React.</p>
             <br/>
-            <a id="source-code" href="https://github.com/VillePellosniemi/portfolio" target="_blank" rel="noopener noreferrer">GitHub Repository & Source Code</a>
+            <a id="source-code" href="https://github.com/VillePellosniemi/portfolio" target="_blank" rel="noopener noreferrer">GitHub Repository & Source Code</a><br/><br/>
+            <button type="button" onClick={this.handleSetLanguage('th')}>
+              Suomi
+            </button>
+            <button type="button" onClick={this.handleSetLanguage('en')}>
+              English
+            </button>
           </div>
         </div>
     );
