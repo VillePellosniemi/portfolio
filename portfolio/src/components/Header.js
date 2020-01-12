@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import '../styles/Header.scss';
+import HeaderName from './HeaderName';
 
 function Header() {
   const [offset, setOffset] = useState(0);
@@ -21,8 +22,7 @@ function Header() {
             style={{ backgroundPositionY: offset }}
         >
           <section className="info-container" style={{ bottom: offset / 2 }}>
-            <h1 id="name">Ville Pellosniemi</h1>
-            <h3 id="title">FRONT END DEVELOPER</h3>
+            <HeaderName/>
           </section>
         </header>
       </div>

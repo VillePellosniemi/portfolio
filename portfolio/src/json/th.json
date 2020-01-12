@@ -4,10 +4,15 @@
   },
   "about": {
     "title": "TIETOA MINUSTA",
-    "text": "Lorem Ipsum on yksinkertaisesti testausteksti, jota tulostus- ja ladontateollisuudet käyttävät. Lorem Ipsum on ollut teollisuuden normaali testausteksti jo 1500-luvulta asti, jolloin tuntematon tulostaja otti kaljuunan ja sekoitti sen tehdäkseen esimerkkikirjan. Se ei ole selvinnyt vain viittä vuosisataa, mutta myös loikan elektroniseen kirjoitukseen, jääden suurinpiirtein muuntamattomana. Se tuli kuuluisuuteen 1960-luvulla kun Letraset-paperiarkit, joissa oli Lorem Ipsum pätkiä, julkaistiin ja vielä myöhemmin tietokoneen julkistusohjelmissa, kuten Aldus PageMaker joissa oli versioita Lorem Ipsumista. On olemassa monta eri versiota Lorem Ipsumin kappaleista, mutta suurin osa on kärsinyt muunnoksista joissain muodoissa, kuten huumorin tai sattumanvaraisesti asetetuin sanoin jotka eivät näytä edes vähän uskottavalta."
+    "text1": "Jotain hiton suomipaskaa, Lorem Ipsum is not fucking done snia siuabdjka xuh ajs  sjhasbjc hcx bsbcabsc jcs chjsb sj jbdhjs cas hjcsabjhsbahcbjsvc djbshbjasbjbdj shdvbvsc dhg c csgc hdg chsh hde",
+    "text2": "xhj ccbajs hjsab cjs chgsda cjacs cjh bjsd chcsv dhcjs d vsdghv ucj cjhsa xjh ajhc dsj cjshd csudv cdhsd cscucuydsycj d cd dcus ucb sduiv dsivu vcus dvu febswjk fjwebauifebswj fhrb userbfc sj durie seivubs vesve",
+    "text3": " ruir rsjkervieur vjskjeu viuerviu uv eu vr eiwbf cw eeu uje dveu ue isvblo oilsufi vdiek rivsdevifbvib viv seiu vvdivuos vies vio u reasio vosi or sio iov ui sfedvi uvfi kf vioub i ifds edw fjw eafjaerfr eheajr  h asj aej ej ael a aj akeueawbilvure bvfsii vreia u jvieavaeuibik brskj viur esv l"
   },
   "work": {
     "title": "TAIDOT JA TYÖT",
     "text": "Richard McClintock, latinalainen professori Hampden-Sydneyn yliopistossa Virginiassa, etsi yhden vaikeaselkoisimmista latinalaisista sanoista, consectetur, Lorem Ipsumin kappaleesta ja etsi lainauksia sanasta klassisessa kirjallisuudessa löytäen varman lähteen. Lorem Ipsum tulee osista 1.10.32 ja 1.10.33 de Finibus Bonorum et Malorum:ksesta (The Extremes of Good and Evil), jonka teki Cicero vuonna 45 eKr. Tämä kirja on tutkielma etiikasta, joka oli hyvin yleistä Renesanssin aikana. Ensimmäinen Lorem"
+  },
+  "contact": {
+    "title": "YHTEYSTIEDOT"
   }
 }

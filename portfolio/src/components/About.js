@@ -72,7 +72,7 @@ class About extends React.Component {
           </div>
           <div className="middle"/>
           <div className="right" ref="box2">
-            <p id="aboutme">{t('about.text')}</p>
+            <p id="aboutme">{t('about.text1')}<br/><br/>{t('about.text2')}<br/><br/>{t('about.text3')}</p>
           </div>
         </div>
     );

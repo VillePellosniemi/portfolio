@@ -1,13 +1,18 @@
 {
   "header": {
-    "title": "Homepage"
+    "title": "FRONT END DEVELOPER"
   },
   "about": {
     "title": "ABOUT ME",
-    "text": "Contrary to popular belief, Lorem Ipsum is not fucking done snia siuabdjka xuh ajs  sjhasbjc hcx bsbcabsc jcs chjsb sj jbdhjs cas hjcsabjhsbahcbjsvc djbshbjasbjbdj shdvbvsc dhg c csgc hdg chsh hde xhj ccbajs hjsab cjs chgsda cjacs cjh bjsd chcsv dhcjs d vsdghv ucj cjhsa xjh ajhc dsj cjshd csudv cdhsd cscucuydsycj d cd dcus ucb sduiv dsivu vcus dvu febswjk fjwebauifebswj fhrb userbfc sj durie seivubs vesve ruir rsjkervieur vjskjeu viuerviu uv eu vr eiwbf cw eeu uje dveu ue isvblo oilsufi vdiek rivsdevifbvib viv seiu vvdivuos vies vio u reasio vosi or sio iov ui sfedvi uvfi kf vioub i ifds edw fjw eafjaerfr eheajr  h asj aej ej ael a aj akeueawbilvure bvfsii vreia u jvieavaeui lveiu iv irv erlvsali uaieu uvre fwje fuew u fueshw fuj fusifc iusd jdifc sdujf sri fsi vj wejf hjr sfursiuk  jdvdjk dsij iks dvuirbs reilosbibik brskj viur esv l"
+    "text1": "Contrary to popular belief, Lorem Ipsum is not fucking done snia siuabdjka xuh ajs  sjhasbjc hcx bsbcabsc jcs chjsb sj jbdhjs cas hjcsabjhsbahcbjsvc djbshbjasbjbdj shdvbvsc dhg c csgc hdg chsh hde",
+    "text2": "xhj ccbajs hjsab cjs chgsda cjacs cjh bjsd chcsv dhcjs d vsdghv ucj cjhsa xjh ajhc dsj cjshd csudv cdhsd cscucuydsycj d cd dcus ucb sduiv dsivu vcus dvu febswjk fjwebauifebswj fhrb userbfc sj durie seivubs vesve",
+    "text3": " ruir rsjkervieur vjskjeu viuerviu uv eu vr eiwbf cw eeu uje dveu ue isvblo oilsufi vdiek rivsdevifbvib viv seiu vvdivuos vies vio u reasio vosi or sio iov ui sfedvi uvfi kf vioub i ifds edw fjw eafjaerfr eheajr  h asj aej ej ael a aj akeueawbilvure bvfsii vreia u jvieavaeuibik brskj viur esv l"
   },
   "work": {
     "title": "SKILLS AND WORK",
     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently"
+  },
+  "contact": {
+    "title": "CONTACT"
   }
 }
