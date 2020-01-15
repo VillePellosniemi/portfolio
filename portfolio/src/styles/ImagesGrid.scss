@@ -94,3 +94,26 @@
   font-family: 'Lato', sans-serif;
 }
 
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .left2 {
+    width: 100%;
+  }
+  .right2 {
+    width: 100%;
+  }
+  .image-grid {
+    padding: 15px 0 0 0 ;
+  }
+  .text-grid {
+    padding: 0 25px 0 25px;
+  }
+  #skills-text {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}
+

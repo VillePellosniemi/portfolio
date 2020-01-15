@@ -8,6 +8,22 @@
   background-color: #EDEDEF;
   overflow:auto;
   padding-bottom: 40px;
+  display: block;
+  width: 100%;
+}
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .ikoni {
+    width: 50px;
+    padding: 3px;
+  }
+  #skills {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
 }
 
 

@@ -10,25 +10,23 @@ class Icons extends React.Component {
   render() {
     return (
         <div>
-          <div className="left2">
-            <ul id="list">
-              <li className="list-item">
-                <img className="ikoni" src={HTML} alt="html"/>
-              </li>
-              <li className="list-item">
-                <img className="ikoni" src={CSS} alt="css"/>
-              </li>
-              <li className="list-item">
-                <img className="ikoni" src={JS} alt="css"/>
-              </li>
-              <li className="list-item">
-                <img className="ikoni" src={REACT} alt="css"/>
-              </li>
-              <li className="list-item">
-                <img className="ikoni" src={PS} alt="css"/>
-              </li>
-            </ul>
-          </div>
+          <ul id="list">
+            <li className="list-item">
+              <img className="ikoni" src={HTML} alt="html"/>
+            </li>
+            <li className="list-item">
+              <img className="ikoni" src={CSS} alt="css"/>
+            </li>
+            <li className="list-item">
+              <img className="ikoni" src={JS} alt="css"/>
+            </li>
+            <li className="list-item">
+              <img className="ikoni" src={REACT} alt="css"/>
+            </li>
+            <li className="list-item">
+              <img className="ikoni" src={PS} alt="css"/>
+            </li>
+          </ul>
         </div>
     );
   }

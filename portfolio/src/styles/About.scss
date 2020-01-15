@@ -56,3 +56,30 @@
   margin-top: 50px;
   border-radius: 20px;
 }
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .left {
+    width: 100%;
+  }
+  .middle {
+    display: none;
+  }
+  .right {
+    width: 100%;
+  }
+  .img-circle {
+    width: 67%;
+  }
+  #aboutme {
+    padding: 0 25px 0 25px;
+    margin: 0;
+    font-size: 20px;
+  }
+  .about {
+    font-size: 30px;
+    padding: 0 0 10px 0;
+  }
+}

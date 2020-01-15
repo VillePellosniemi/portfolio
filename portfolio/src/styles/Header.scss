@@ -3,12 +3,11 @@
 
 .header-background {
   background: url("https://schuyler.media/images/light_background.jpg");
-  height: 50rem;
+  height: 52rem;
   display: flex;
   justify-content: center;
   align-items: center;
   min-width: 100%;
-  background-repeat: repeat;
 }
 
 .info-container {
@@ -40,7 +39,7 @@
     width: 80%;
   }
   #name {
-    font-size: 60px;
+    font-size: 20px;
   }
 }
 
@@ -49,7 +48,7 @@
     width: 80%;
   }
   #name {
-    padding: 20px;
+    font-size: 50px;
   }
 }
 

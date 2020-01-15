@@ -38,7 +38,7 @@ class About extends React.Component {
     };
 
     const config2 = {
-      origin: 'right',
+      origin: 'left',
       duration: 1200,
       delay: 300,
       distance: '500px',
