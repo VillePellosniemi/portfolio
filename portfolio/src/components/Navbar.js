@@ -7,6 +7,32 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import {setLanguage} from 'react-switch-lang';
 import British from '../images/British.png';
 import Finnish from '../images/Finnish2.png';
+import IconButton from '@material-ui/core/IconButton/IconButton';
+import {Menu} from '@material-ui/icons';
+import Drawer from '@material-ui/core/Drawer/Drawer';
+import {withStyles} from '@material-ui/core';
+
+const styles = {
+  root: {
+    flexGrow: 1,
+  },
+  grow: {
+    flexGrow: 1,
+  },
+  menuButton: {
+    marginLeft: -12,
+    marginRight: 20,
+  },
+  drawerHeader: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+    padding: '0 8px',
+  },
+  drawerPaper: {
+    width: '35%',
+  },
+};
 
 class Navbar extends Component {
   static propTypes = {
@@ -20,6 +46,16 @@ class Navbar extends Component {
           to: PropTypes.string.isRequired,
         }),
     ),
+  };
+
+  state = {
+    left: false,
+  };
+
+  toggleDrawer = (side, open) => () => {
+    this.setState({
+      [side]: open,
+    });
   };
 
   constructor(props) {
@@ -53,6 +89,15 @@ class Navbar extends Component {
 
   render() {
 
+    const {classes} = this.props;
+
+    const sideList = (
+        <div>
+          <p>hi</p>
+        </div>
+    );
+
+
     return (
         <div>
           <Transition>
@@ -66,9 +111,27 @@ class Navbar extends Component {
                   <AnchorLink className="nav-link"
                               href='#contact-scroll'>CONTACT</AnchorLink>
                 </div>
-                <div className="vertical-center2">
+                <div className="flags">
                   <img className="image-flag" src={Finnish} onClick={this.handleSetLanguage('th')} alt="img"/>
                   <img className="image-flag" src={British} onClick={this.handleSetLanguage('en')} alt="img"/>
+                </div>
+                <div className="menu">
+                  <IconButton classname="menu-button" onClick={this.toggleDrawer('left', true)} color="inherit" aria-label="Menu">
+                    <Menu />
+                  </IconButton>
+                  <Drawer type="temporary"
+                          classes={{
+                            paper: classes.drawerPaper,
+                          }} open={this.state.left} onClose={this.toggleDrawer('left', false)}>
+                    <div
+                        tabIndex={0}
+                        role="button"
+                        onClick={this.toggleDrawer('left', false)}
+                        onKeyDown={this.toggleDrawer('left', false)}
+                    >
+                      {sideList}
+                    </div>
+                  </Drawer>
                 </div>
               </nav>
             </StyledNavbar>
@@ -115,4 +178,9 @@ const Transition = styled.div`
   }
 `;
 
-export default Navbar;
+Navbar.propTypes = {
+  checkLogin: PropTypes.func,
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(Navbar);

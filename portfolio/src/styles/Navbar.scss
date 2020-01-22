@@ -25,13 +25,30 @@
   transform: translate(-50%, -50%);
 }
 
-.vertical-center2 {
+.flags {
   margin: 0;
   position: absolute;
   top: 50%;
   right: 50px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  padding: 5px;
+  width: 150px;
+}
+
+.menu {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.MuiSvgIcon-root {
+  font-size: 30px !important;
+  visibility: hidden;
 }
 
 nav {
@@ -43,8 +60,8 @@ nav {
 }
 
 .image-flag {
-  width: 38%;
-  margin: 3px;
+  width: 45px;
+  margin-left: 7px;
   cursor: pointer;
   border: 0.8px solid black;
   border-radius: 3px;
@@ -56,11 +73,20 @@ nav {
 
 
 @media only screen and (max-width: 600px) {
-  .nav-link {
-    padding: 15px;
+  .vertical-center {
+    display: none;
   }
-  .vertical-center2 {
-    right: 20px;
+  .flags {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+  }
+  .MuiSvgIcon-root {
+    visibility: visible;
+  }
+  .Navbar-drawerPaper-5 {
+    width: 90% !important;
   }
 }
 
