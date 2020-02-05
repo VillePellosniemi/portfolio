@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/About.scss';
-import Image from '../images/profile.png';
+import Image from '../images/pp_blwhite.jpg';
 import sr from './scrollReveal';
 import {SocialIcon} from 'react-social-icons';
 import PropTypes from 'prop-types';
@@ -38,7 +38,7 @@ class About extends React.Component {
     };
 
     const config2 = {
-      origin: 'left',
+      origin: 'right',
       duration: 1200,
       delay: 300,
       distance: '500px',
