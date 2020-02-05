@@ -30,7 +30,7 @@ const styles = {
     padding: '0 8px',
   },
   drawerPaper: {
-    width: '35%',
+    width: '90%',
   },
 };
 
