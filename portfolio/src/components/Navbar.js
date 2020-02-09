@@ -30,7 +30,7 @@ const styles = {
     padding: '0 8px',
   },
   drawerPaper: {
-    width: '90%',
+    width: '100%',
   },
 };
 
@@ -92,11 +92,40 @@ class Navbar extends Component {
     const {classes} = this.props;
 
     const sideList = (
-        <div>
-          <p>hi</p>
-        </div>
+        <ul className="test2">
+          <li className="test">
+            <div className="relative-white">
+              <div className="flags-dropdown">
+                <AnchorLink className="dropdown-link" href='#about-scroll'>ABOUT</AnchorLink>
+              </div>
+            </div>
+          </li>
+          <li className="test">
+            <div className="relative-grey">
+              <div className="flags-dropdown">
+                <AnchorLink className="dropdown-link" href='#work-scroll'>WORK</AnchorLink>
+              </div>
+            </div>
+          </li>
+          <li className="test">
+            <div className="relative-white">
+              <div className="flags-dropdown">
+                <AnchorLink className="dropdown-link" href='#contact-scroll'>CONTACT</AnchorLink>
+              </div>
+            </div>
+          </li>
+          <li className="test">
+            <div className="relative-grey">
+              <div className="flags-dropdown-flags">
+                <img className="image-flag-dropdown" src={Finnish}
+                     onClick={this.handleSetLanguage('th')} alt="img"/>
+                <img className="image-flag-dropdown" src={British}
+                     onClick={this.handleSetLanguage('en')} alt="img"/>
+              </div>
+            </div>
+          </li>
+        </ul>
     );
-
 
     return (
         <div>
@@ -112,22 +141,27 @@ class Navbar extends Component {
                               href='#contact-scroll'>CONTACT</AnchorLink>
                 </div>
                 <div className="flags">
-                  <img className="image-flag" src={Finnish} onClick={this.handleSetLanguage('th')} alt="img"/>
-                  <img className="image-flag" src={British} onClick={this.handleSetLanguage('en')} alt="img"/>
+                  <img className="image-flag" src={Finnish}
+                       onClick={this.handleSetLanguage('th')} alt="img"/>
+                  <img className="image-flag" src={British}
+                       onClick={this.handleSetLanguage('en')} alt="img"/>
                 </div>
                 <div className="menu">
-                  <IconButton classname="menu-button" onClick={this.toggleDrawer('left', true)} color="inherit" aria-label="Menu">
-                    <Menu />
+                  <IconButton classname="menu-button"
+                              onClick={this.toggleDrawer('left', true)}
+                              color="inherit" aria-label="Menu">
+                    <Menu/>
                   </IconButton>
                   <Drawer type="temporary"
                           classes={{
                             paper: classes.drawerPaper,
-                          }} open={this.state.left} onClose={this.toggleDrawer('left', false)}>
-                    <div
-                        tabIndex={0}
-                        role="button"
-                        onClick={this.toggleDrawer('left', false)}
-                        onKeyDown={this.toggleDrawer('left', false)}
+                          }} open={this.state.left}
+                          onClose={this.toggleDrawer('left', false)}>
+                    <div id="dropdown"
+                         tabIndex={0}
+                         role="button"
+                         onClick={this.toggleDrawer('left', false)}
+                         onKeyDown={this.toggleDrawer('left', false)}
                     >
                       {sideList}
                     </div>
