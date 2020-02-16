@@ -64,7 +64,7 @@ class ImagesGrid extends React.Component {
 
           <div className="left2" ref="box3">
             <div className="text-grid">
-              <p id="skills-text">{t('work.text')}</p>
+              <p id="skills-text">{t('work.text1')}<br/><br/>{t('work.text2')}<br/><br/>{t('about.text3')}</p>
             </div>
           </div>
 
