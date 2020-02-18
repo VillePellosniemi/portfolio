@@ -3,7 +3,6 @@ import {Component} from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import '../styles/Navbar.scss';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import {setLanguage} from 'react-switch-lang';
 import British from '../images/British.png';
 import Finnish from '../images/Finnish2.png';
@@ -11,6 +10,10 @@ import IconButton from '@material-ui/core/IconButton/IconButton';
 import {Menu} from '@material-ui/icons';
 import Drawer from '@material-ui/core/Drawer/Drawer';
 import {withStyles} from '@material-ui/core';
+import Navlinks from './Navlinks';
+import NavlinksDrawer1 from '../components/NavlinkDrawer1';
+import NavlinksDrawer2 from '../components/NavlinkDrawer2';
+import NavlinksDrawer3 from '../components/NavlinkDrawer3';
 
 const styles = {
   root: {
@@ -96,21 +99,21 @@ class Navbar extends Component {
           <li className="test">
             <div className="relative-white">
               <div className="flags-dropdown">
-                <AnchorLink className="dropdown-link" href='#about-scroll'>ABOUT</AnchorLink>
+                <NavlinksDrawer1/>
               </div>
             </div>
           </li>
           <li className="test">
             <div className="relative-grey">
               <div className="flags-dropdown">
-                <AnchorLink className="dropdown-link" href='#work-scroll'>WORK</AnchorLink>
+                <NavlinksDrawer2/>
               </div>
             </div>
           </li>
           <li className="test">
             <div className="relative-white">
               <div className="flags-dropdown">
-                <AnchorLink className="dropdown-link" href='#contact-scroll'>CONTACT</AnchorLink>
+                <NavlinksDrawer3/>
               </div>
             </div>
           </li>
@@ -129,47 +132,40 @@ class Navbar extends Component {
 
     return (
         <div>
-          <Transition>
-            <StyledNavbar className={this.state.show ? 'active' : 'hidden'}>
-              <nav className="nav-bar">
-                <div className="vertical-center">
-                  <AnchorLink className="nav-link"
-                              href='#about-scroll'>ABOUT</AnchorLink>
-                  <AnchorLink className="nav-link"
-                              href='#work-scroll'>WORK</AnchorLink>
-                  <AnchorLink className="nav-link"
-                              href='#contact-scroll'>CONTACT</AnchorLink>
-                </div>
-                <div className="flags">
-                  <img className="image-flag" src={Finnish}
-                       onClick={this.handleSetLanguage('th')} alt="img"/>
-                  <img className="image-flag" src={British}
-                       onClick={this.handleSetLanguage('en')} alt="img"/>
-                </div>
-                <div className="menu">
-                  <IconButton classname="menu-button"
-                              onClick={this.toggleDrawer('left', true)}
-                              color="inherit" aria-label="Menu">
-                    <Menu/>
-                  </IconButton>
-                  <Drawer type="temporary"
-                          classes={{
-                            paper: classes.drawerPaper,
-                          }} open={this.state.left}
-                          onClose={this.toggleDrawer('left', false)}>
-                    <div id="dropdown"
-                         tabIndex={0}
-                         role="button"
-                         onClick={this.toggleDrawer('left', false)}
-                         onKeyDown={this.toggleDrawer('left', false)}
-                    >
-                      {sideList}
-                    </div>
-                  </Drawer>
-                </div>
-              </nav>
-            </StyledNavbar>
-          </Transition>
+          <StyledNavbar className={this.state.show ? 'active' : 'hidden'}>
+            <nav className="nav-bar">
+              <div className="vertical-center">
+                <Navlinks/>
+              </div>
+              <div className="flags">
+                <img className="image-flag" src={Finnish}
+                     onClick={this.handleSetLanguage('th')} alt="img"/>
+                <img className="image-flag" src={British}
+                     onClick={this.handleSetLanguage('en')} alt="img"/>
+              </div>
+              <div className="menu">
+                <IconButton classname="menu-button"
+                            onClick={this.toggleDrawer('left', true)}
+                            color="inherit" aria-label="Menu">
+                  <Menu/>
+                </IconButton>
+                <Drawer type="temporary"
+                        classes={{
+                          paper: classes.drawerPaper,
+                        }} open={this.state.left}
+                        onClose={this.toggleDrawer('left', false)}>
+                  <div id="dropdown"
+                       tabIndex={0}
+                       role="button"
+                       onClick={this.toggleDrawer('left', false)}
+                       onKeyDown={this.toggleDrawer('left', false)}
+                  >
+                    {sideList}
+                  </div>
+                </Drawer>
+              </div>
+            </nav>
+          </StyledNavbar>
         </div>
     );
   }
@@ -199,18 +195,6 @@ const StyledNavbar = styled.div`
     color: white;
     font-size: 1.25rem;
   }`;
-
-const Transition = styled.div`
-  .active {
-    visibility: visible;
-    transition: all 200ms ease-in;
-  }
-  .hidden {
-    visibility: hidden;
-    transition: all 200ms ease-out;
-    transform: translate(0, -100%);
-  }
-`;
 
 Navbar.propTypes = {
   checkLogin: PropTypes.func,

@@ -2,16 +2,22 @@
   "header": {
     "title": "FRONT END KEHITTÄJÄ"
   },
+  "nav": {
+    "link1": "PROFIILI",
+    "link2": "TAIDOT",
+    "link3": "YHTEYSTIEDOT"
+  },
   "about": {
-    "title": "TIETOA MINUSTA",
+    "title": "PROFIILI",
     "text1": "Olen kolmannen vuoden tieto- ja viestintätekniikan opiskelija Metropolia ammattikorkeakoulussa. Pääaineeni on mediatekniikka, mutta opintoihini kuuluu myös paljon web-puolen koodausta.",
     "text2": "xhj ccbajs hjsab cjs chgsda cjacs cjh bjsd chcsv dhcjs d vsdghv ucj cjhsa xjh ajhc dsj cjshd csudv cdhsd cscucuydsycj d cd dcus ucb sduiv dsivu vcus dvu febswjk fjwebauifebswj fhrb userbfc sj durie seivubs vesve",
     "text3": " ruir rsjkervieur vjskjeu viuerviu uv eu vr eiwbf cw eeu uje dveu ue isvblo oilsufi vdiek rivsdevifbvib viv seiu vvdivuos vies vio u reasio vosi or sio iov ui sfedvi uvfi kf vioub i ifds edw fjw eafjaerfr eheajr  h asj aej ej ael a aj akeueawbilvure bvfsii vreia u jvieavaeuibik brskj viur esv l"
   },
   "work": {
-    "title": "TAIDOT JA TYÖT",
-    "text1": "Richard McClintock, ltinalainen professori Hampden-Sydneyn yliopistossa Virginiassa, etsi yhden vaikeaselkoisimmista latinalaisista sanoista, consectetur",
-    "text2": "Lorem Ipsumin kappaleesta ja etsi lainauksia sanasta klassisessa kirjallisuudessa löytäen varman lähteen. Lorem Ipsum tulee osista 1.10.32 ja 1.10.33 de Finibus Bonorum et Malorum:ksesta (The Extremes of Good and Evil), jonka teki Cicero vuonna 45 eKr. Tämä kirja on tutkielma etiikasta, joka oli hyvin yleistä Renesanssin aikana. Ensimmäinen Lorem"
+    "title": "TAIDOT & PROJEKTIT",
+    "text1": "Reactia käytän nykyään kaikissa nettisivustoissani ja sen lisäksi käytössäni ovat modernit frameworkit kuten Material UI ja React Bootstrap. HTML:n, CSS:n ja Javascriptin kanssa olen koodannut kaksi vuotta ja hallitsen ne rutiininomaisesti.",
+    "text2": "Omaan myös Javan ja C# perustaidot. Harrastan vapaa-ajallani koodauksen lisäksi videoeditointia ja kuvankäsittelyä Adoben työkaluilla (Photoshop, Premiere ja After Effects).",
+    "text3": "Siirrä hiiri ohessa olevien kuvakkeiden päälle nähdäksesi nettisivuston ja GitHub-lähdekoodin."
   },
   "contact": {
     "title": "YHTEYSTIEDOT"

@@ -9,6 +9,7 @@ function Header() {
     setOffset(window.pageYOffset);
   };
 
+
   useEffect(() => {
     window.addEventListener("scroll", listener);
     return () => {

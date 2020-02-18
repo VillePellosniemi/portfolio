@@ -2,15 +2,22 @@
   "header": {
     "title": "FRONT END DEVELOPER"
   },
+  "nav": {
+    "link1": "PROFILE",
+    "link2": "SKILLS",
+    "link3": "CONTACT‎"
+  },
   "about": {
-    "title": "ABOUT ME",
-    "text1": "Contrary to popular belief, Lorem Ipsum is not fucking done snia siuabdjka xuh ajs  sjhasbjc hcx bsbcabsc jcs chjsb sj jbdhjs cas hjcsabjhsbahcbjsvc djbshbjasbjbdj shdvbvsc dhg c csgc hdg chsh hde",
+    "title": "PROFILE",
+    "text1": "I'm a third-year student of information technology in Metropolia University of Applied Sciences. My main subject is media technology but my studies include a lot of web-side coding too.",
     "text2": "xhj ccbajs hjsab cjs chgsda cjacs cjh bjsd chcsv dhcjs d vsdghv ucj cjhsa xjh ajhc dsj cjshd csudv cdhsd cscucuydsycj d cd dcus ucb sduiv dsivu vcus dvu febswjk fjwebauifebswj fhrb userbfc sj durie seivubs vesve",
     "text3": " ruir rsjkervieur vjskjeu viuerviu uv eu vr eiwbf cw eeu uje dveu ue isvblo oilsufi vdiek rivsdevifbvib viv seiu vvdivuos vies vio u reasio vosi or sio iov ui sfedvi uvfi kf vioub i ifds edw fjw eafjaerfr eheajr  h asj aej ej ael a aj akeueawbilvure bvfsii vreia u jvieavaeuibik brskj viur esv l"
   },
   "work": {
-    "title": "SKILLS AND WORK",
-    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently"
+    "title": "SKILLS & PROJECTS",
+    "text1": "Nowadays I use React in my all of my websites and in addition to that I use modern frameworks as Material UI and React Bootstrap. I've coded with HTML, CSS and Javascript for two years now and I know them throughly.",
+    "text2": "I also have basic skills in Java and C#. My hobbies in my free time besides coding are video-  and photo editing with Adobe's tools (Photoshop, Premiere and After Effects).",
+    "text3": "Hover over the icons with your mouse to view the website and GitHub source code."
   },
   "contact": {
     "title": "CONTACT"

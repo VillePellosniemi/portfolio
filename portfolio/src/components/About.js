@@ -30,8 +30,8 @@ class About extends React.Component {
   componentDidMount = () => {
     const config = {
       origin: 'left',
-      duration: 1200,
-      delay: 300,
+      duration: 1700,
+      delay: 500,
       distance: '500px',
       scale: 1,
       easing: 'ease',
@@ -39,8 +39,8 @@ class About extends React.Component {
 
     const config2 = {
       origin: 'right',
-      duration: 1200,
-      delay: 300,
+      duration: 1700,
+      delay: 500,
       distance: '500px',
       scale: 1,
       easing: 'ease',
@@ -67,6 +67,8 @@ class About extends React.Component {
                           url="https://www.linkedin.com/in/ville-pellosniemi-41913b178/"
                           target="_blank"/>
               <SocialIcon className="icon" url="https://twitter.com/Pelzeri_"
+                          target="_blank"/>
+              <SocialIcon className="icon" url="https://www.youtube.com/user/Pelzeri"
                           target="_blank"/>
             </div>
           </div>

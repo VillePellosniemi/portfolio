@@ -35,8 +35,8 @@ class ImagesGrid extends React.Component {
   componentDidMount = () => {
     const config3 = {
       origin: 'left',
-      duration: 1200,
-      delay: 300,
+      duration: 1700,
+      delay: 500,
       distance: '500px',
       scale: 1,
       easing: 'ease',
@@ -44,8 +44,8 @@ class ImagesGrid extends React.Component {
 
     const config4 = {
       origin: 'right',
-      duration: 1200,
-      delay: 300,
+      duration: 1700,
+      delay: 500,
       distance: '500px',
       scale: 1,
       easing: 'ease',
@@ -64,7 +64,7 @@ class ImagesGrid extends React.Component {
 
           <div className="left2" ref="box3">
             <div className="text-grid">
-              <p id="skills-text">{t('work.text1')}<br/><br/>{t('work.text2')}<br/><br/>{t('about.text3')}</p>
+              <p id="skills-text">{t('work.text1')}<br/><br/>{t('work.text2')}<br/><br/>{t('work.text3')}</p>
             </div>
           </div>
 

@@ -43,11 +43,6 @@
   left: 3%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-
-.MuiSvgIcon-root {
-  font-size: 30px !important;
   visibility: hidden;
 }
 
@@ -121,7 +116,7 @@ nav {
 
 .dropdown-link {
   padding: 50px 100px 50px 100px;
-  font-size: 25px;
+  font-size: 22px;
   text-decoration: none;
   color: black;
   font-family: 'Lato', sans-serif;
@@ -151,6 +146,9 @@ nav {
     top: 20%;
   }
   .MuiSvgIcon-root {
+    visibility: visible;
+  }
+  .menu {
     visibility: visible;
   }
 }

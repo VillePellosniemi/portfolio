@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Contact.scss';
 import PropTypes from 'prop-types';
-import GitHubIcon from '@material-ui/icons/GitHub';
 
 // Translation Higher Order Component
 import {

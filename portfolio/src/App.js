@@ -10,6 +10,7 @@ class App extends Component {
   render() {
     return (
         <div className="App">
+
           <Navbar/>
           <Header/>
           <section id="about-scroll">
