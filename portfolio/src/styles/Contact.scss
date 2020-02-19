@@ -9,6 +9,10 @@
   font-size: 30px !important;
 }
 
+.contact-info {
+  font-size: 16px;
+}
+
 .upper {
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -17,9 +21,18 @@
 .lower {
   color: white;
   font-family: 'Roboto', sans-serif;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 #source-code {
+  color: white;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  #contact2 {
+    font-size: 27px !important;
+  }
 }
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from 'react';
 import '../styles/Header.scss';
 import HeaderName from './HeaderName';
 
@@ -9,20 +9,19 @@ function Header() {
     setOffset(window.pageYOffset);
   };
 
-
   useEffect(() => {
-    window.addEventListener("scroll", listener);
+    window.addEventListener('scroll', listener);
     return () => {
-      window.removeEventListener("scroll", listener);
+      window.removeEventListener('scroll', listener);
     };
   });
   return (
       <div className="App">
         <header
             className="header-background"
-            style={{ backgroundPositionY: offset }}
+            style={{backgroundPositionY: offset}}
         >
-          <section className="info-container" style={{ bottom: offset / 2 }}>
+          <section className="info-container" style={{bottom: offset / 4}}>
             <HeaderName/>
           </section>
         </header>

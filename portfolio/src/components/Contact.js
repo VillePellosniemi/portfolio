@@ -28,14 +28,14 @@ class Contact extends React.Component {
         <div id="contact">
           <div className="upper">
             <h1 id="contact2">{t('contact.title')}</h1>
-            <p className="contact-info">Mobile: +358 44 031 1533</p>
-            <p className="contact-info">Email: ville.pellosniemi@outlook.com</p>
+            <p className="contact-info">{t('contact.mobile')} +358 44 031 1533</p>
+            <p className="contact-info">{t('contact.email')} ville.pellosniemi@outlook.com</p>
           </div>
           <div className="lower">
-            <p>Copyright 2020 - Ville Pellosniemi</p>
-            <p>All rights reserved. Made with React.</p>
+            <p className="contact-info">{t('contact.copyright')} 2020 - Ville Pellosniemi</p>
+            <p className="contact-info">{t('contact.rights')}</p>
             <br/>
-            <a id="source-code" href="https://github.com/VillePellosniemi/portfolio" target="_blank" rel="noopener noreferrer">GitHub Repository & Source Code</a><br/><br/>
+            <a id="source-code" href="https://github.com/VillePellosniemi/portfolio" target="_blank" rel="noopener noreferrer"> {t('contact.github')}</a><br/><br/>
           </div>
         </div>
     );

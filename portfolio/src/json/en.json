@@ -9,9 +9,9 @@
   },
   "about": {
     "title": "PROFILE",
-    "text1": "I'm a third-year student of information technology in Metropolia University of Applied Sciences. My main subject is media technology but my studies include a lot of web-side coding too.",
-    "text2": "xhj ccbajs hjsab cjs chgsda cjacs cjh bjsd chcsv dhcjs d vsdghv ucj cjhsa xjh ajhc dsj cjshd csudv cdhsd cscucuydsycj d cd dcus ucb sduiv dsivu vcus dvu febswjk fjwebauifebswj fhrb userbfc sj durie seivubs vesve",
-    "text3": " ruir rsjkervieur vjskjeu viuerviu uv eu vr eiwbf cw eeu uje dveu ue isvblo oilsufi vdiek rivsdevifbvib viv seiu vvdivuos vies vio u reasio vosi or sio iov ui sfedvi uvfi kf vioub i ifds edw fjw eafjaerfr eheajr  h asj aej ej ael a aj akeueawbilvure bvfsii vreia u jvieavaeuibik brskj viur esv l"
+    "text1": "A third-year student of information technology in Metropolia University of Applied Sciences. My main subject is media technology but my studies include plenty of web-side coding too. I'm a quick learner, skilled to work in a team and passionate coder who is ready to face new challenges and enter the working life of technology. ",
+    "text2": "Quick learner, skilled to work in a team and passionate coder who is ready to face new challenges and enter the working life of technology. ",
+    "text3": "As front end developer I'm always aiming to create eye pleasing solutions and make the website easy-to-use and responsive. Also I'm naturally talented to visualize what is good-looking for the end user."
   },
   "work": {
     "title": "SKILLS & PROJECTS",
@@ -20,6 +20,11 @@
     "text3": "Hover over the icons with your mouse to view the website and GitHub source code."
   },
   "contact": {
-    "title": "CONTACT"
+    "title": "CONTACT INFO",
+    "mobile": "Mobile:",
+    "email": "Email:",
+    "copyright": "Copyright",
+    "rights": "All rights reserved. Made with React.",
+    "github": "GitHub Repository & Source Code"
   }
 }

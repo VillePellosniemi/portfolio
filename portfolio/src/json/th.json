@@ -9,9 +9,9 @@
   },
   "about": {
     "title": "PROFIILI",
-    "text1": "Olen kolmannen vuoden tieto- ja viestintätekniikan opiskelija Metropolia ammattikorkeakoulussa. Pääaineeni on mediatekniikka, mutta opintoihini kuuluu myös paljon web-puolen koodausta.",
-    "text2": "xhj ccbajs hjsab cjs chgsda cjacs cjh bjsd chcsv dhcjs d vsdghv ucj cjhsa xjh ajhc dsj cjshd csudv cdhsd cscucuydsycj d cd dcus ucb sduiv dsivu vcus dvu febswjk fjwebauifebswj fhrb userbfc sj durie seivubs vesve",
-    "text3": " ruir rsjkervieur vjskjeu viuerviu uv eu vr eiwbf cw eeu uje dveu ue isvblo oilsufi vdiek rivsdevifbvib viv seiu vvdivuos vies vio u reasio vosi or sio iov ui sfedvi uvfi kf vioub i ifds edw fjw eafjaerfr eheajr  h asj aej ej ael a aj akeueawbilvure bvfsii vreia u jvieavaeuibik brskj viur esv l"
+    "text1": "Kolmannen vuoden tieto- ja viestintätekniikan opiskelija Metropolia ammattikorkeakoulussa. Pääaineeni on mediatekniikka, mutta opintoihini kuuluu myös paljon web-puolen koodausta.",
+    "text2": "Olen nopea oppija, tiimityöskentelytaitoinen ja intohimoinen koodari, joka on valmis kohtaamaan uusia haasteita ja pääsemään sisälle teknologian työelämään.",
+    "text3": "Front end-kehittäjänä pyrin aina luomaan silmää miellyttäviä ratkaisuja ja tekemään nettisivustosta helppokäyttöisen ja responsiivisen. Lisäksi olen luonnollisesti hyvä hahmottamaan, mikä näyttää käyttäjän silmään hyvältä."
   },
   "work": {
     "title": "TAIDOT & PROJEKTIT",
@@ -20,6 +20,11 @@
     "text3": "Siirrä hiiri ohessa olevien kuvakkeiden päälle nähdäksesi nettisivuston ja GitHub-lähdekoodin."
   },
   "contact": {
-    "title": "YHTEYSTIEDOT"
+    "title": "YHTEYSTIEDOT",
+    "mobile": "Mobiili:",
+    "email": "Sähköposti:",
+    "copyright": "Tekijänoikeus",
+    "rights": "Kaikki oikeudet pidätetään. Tehty Reactilla.",
+    "github": "GitHub Repositorio & Lähdekoodi"
   }
 }
